@@ -8,7 +8,7 @@ function updateCookieCount() {
   localStorage.hits = Number(localStorage.hits) + 1;
   }
   else {
-    localStorage.hits = 1
+    localStorage.hits = 0
   }
   document.getElementById("times").innerHTML = "Total click is:" + localStorage.hits
 }
